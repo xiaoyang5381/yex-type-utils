@@ -1,0 +1,1 @@
+type Prefix<K extends string, Pre extends string = '', Sep extends string = '/'> = '' extends Pre ? K : `${Pre}${Sep}${K}`
